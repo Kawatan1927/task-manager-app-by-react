@@ -17,7 +17,7 @@ const TaskForm: React.FC<TaskFormProps> = ({onAddTask}) => {
             setTitle("");
             setError("");
         }else {
-            setError("");
+            setError("タスクタイトルを入力してください。");
         }
     }
 

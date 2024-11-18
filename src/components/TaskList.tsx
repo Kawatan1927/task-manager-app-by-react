@@ -7,7 +7,7 @@ type TaskListProps = {
 
 const TaskList: React.FC<TaskListProps> = ({tasks}) => {
     return(
-        <ul>
+        <ul　style={{ padding: '0' }}>
             {tasks.map(task => (
                 <Task key={task.id} task={task} />
             ))}
